@@ -1,0 +1,63 @@
+p .\model\Farmhouse.obj
+p .\model\Street.obj
+p .\model\marine.md5mesh
+p .\model\zealot.md5mesh
+p .\model\Swor.obj
+
+o .\model\Farmhouse.obj
+on House
+op 0.000000 0.000000 30.000000
+or 0.000000 0.000000 0.000000
+os 0.500000 0.500000 0.500000
+
+o .\model\Street.obj
+on Street
+op 0.000000 0.000000 0.000000
+or 0.000000 0.000000 0.000000
+os 1.000000 1.000000 1.000000
+
+o .\model\Swor.obj
+on Sword
+op 0.000000 20.000000 0.000000
+or 90.000000 0.000000 0.000000
+os 0.500000 0.500000 0.500000
+
+m .\model\marine.md5mesh
+mn Marine1
+mp 30.000000 0.000000 0.000000
+mr 0.000000 90.000000 0.000000
+ms 5.000000 5.000000 5.000000
+ma .\model\marine_attack.md5anim
+
+m .\model\marine.md5mesh
+mn Marine2
+mp 30.000000 0.000000 7.000000
+mr 0.000000 90.000000 0.000000
+ms 5.000000 5.000000 5.000000
+ma .\model\marine_idle.md5anim
+ma .\model\marine_walk.md5anim
+
+m .\model\marine.md5mesh
+mn Marine3
+mp 30.000000 0.000000 -7.000000
+mr 0.000000 90.000000 0.000000
+ms 5.000000 5.000000 5.000000
+ma .\model\marine_walk.md5anim
+
+m .\model\zealot.md5mesh
+mn Zealot
+mp -30.000000 0.500000 0.000000
+mr 0.000000 -90.000000 0.000000
+ms 1.000000 1.000000 1.000000
+ma .\model\zealot_idle.md5anim
+ma .\model\zealot_walk.md5anim
+ma .\model\zealot_attack1.md5anim
+mt .\lua\MoveTest.lua
+mt .\lua\MainCamera.lua
+
+o .\model\Street.obj
+on Street2
+op 95.000000 0.000000 0.000000
+or 0.000000 90.000000 0.000000
+os 1.000000 1.000000 1.000000
+

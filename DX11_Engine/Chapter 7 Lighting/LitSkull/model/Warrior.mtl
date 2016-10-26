@@ -1,0 +1,62 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 24.01.2015 15:00:30
+
+newmtl torso
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka NordPlateM.png
+	map_Kd NordPlateM.png
+	map_bump Norm_textures_armor_nordplate_NordPlateM_n_dds_Normal_Bump.png
+
+newmtl boots
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka NordPlateBootsF.png
+	map_Kd NordPlateBootsF.png
+	map_bump Norm_textures_armor_nordplate_NordPlateBootsF_n_dds_Normal_Bump.png
+
+newmtl gloves
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka NordPlateGlovesF.png
+	map_Kd NordPlateGlovesF.png
+	map_bump Norm_textures_armor_nordplate_NordPlateGlovesF_n_dds_Normal_Bump.png
+
+newmtl helmet
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka NordPlateHelmF.png
+	map_Kd NordPlateHelmF.png
+	map_bump Norm_textures_armor_nordplate_NordPlateHelmF_n_dds_Normal_Bump.png
